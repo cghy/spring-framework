@@ -55,6 +55,7 @@ public class TestAnnotationUtils {
 		if (repeat == null) {
 			return 1;
 		}
+		System.out.println("my test");
 		return Math.max(1, repeat.value());
 	}
 
